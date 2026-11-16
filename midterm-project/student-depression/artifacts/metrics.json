@@ -1,0 +1,120 @@
+{
+  "full": {
+    "models": {
+      "logreg (baseline)": {
+        "cv_roc_auc": 0.9210580790489014,
+        "best_params": {
+          "C": 0.1
+        },
+        "test_roc_auc": 0.9217752551664443,
+        "test_accuracy": 0.8462504485109437,
+        "test_precision": 0.8584202682563339,
+        "test_recall": 0.8828939301042306,
+        "test_f1": 0.8704851141000454,
+        "fit_seconds": 2.2
+      },
+      "decision_tree": {
+        "cv_roc_auc": 0.9028636721891266,
+        "best_params": {
+          "max_depth": 12,
+          "min_samples_leaf": 100
+        },
+        "test_roc_auc": 0.9059751961880435,
+        "test_accuracy": 0.8281306063867958,
+        "test_precision": 0.8426531826293873,
+        "test_recall": 0.8684855916615574,
+        "test_f1": 0.8553743961352657,
+        "fit_seconds": 3.6
+      },
+      "random_forest": {
+        "cv_roc_auc": 0.9162113215527153,
+        "best_params": {
+          "max_depth": 14,
+          "min_samples_leaf": 5
+        },
+        "test_roc_auc": 0.9184705818707185,
+        "test_accuracy": 0.8437387872264083,
+        "test_precision": 0.854642539305844,
+        "test_recall": 0.8832004904966279,
+        "test_f1": 0.8686868686868687,
+        "fit_seconds": 13.7
+      },
+      "hist_gradient_boosting": {
+        "cv_roc_auc": 0.9207049120994218,
+        "best_params": {
+          "l2_regularization": 1.0,
+          "learning_rate": 0.1,
+          "max_leaf_nodes": 8
+        },
+        "test_roc_auc": 0.9217796308121835,
+        "test_accuracy": 0.8485827054180122,
+        "test_precision": 0.8615430622009569,
+        "test_recall": 0.8832004904966279,
+        "test_f1": 0.8722373599757796,
+        "fit_seconds": 17.7
+      }
+    },
+    "selected": "logreg (baseline)"
+  },
+  "no_suicidal": {
+    "models": {
+      "logreg (baseline)": {
+        "cv_roc_auc": 0.8733421006367387,
+        "best_params": {
+          "C": 0.03
+        },
+        "test_roc_auc": 0.8677199862525168,
+        "test_accuracy": 0.7938643702906351,
+        "test_precision": 0.8073901658423044,
+        "test_recall": 0.8507050889025138,
+        "test_f1": 0.8284818629646216,
+        "fit_seconds": 1.9
+      },
+      "decision_tree": {
+        "cv_roc_auc": 0.8517491986878566,
+        "best_params": {
+          "max_depth": 12,
+          "min_samples_leaf": 100
+        },
+        "test_roc_auc": 0.8501560116599026,
+        "test_accuracy": 0.7847147470398278,
+        "test_precision": 0.7912429378531074,
+        "test_recall": 0.8586756591048437,
+        "test_f1": 0.8235812996177595,
+        "fit_seconds": 3.2
+      },
+      "random_forest": {
+        "cv_roc_auc": 0.869441699554989,
+        "best_params": {
+          "max_depth": 20,
+          "min_samples_leaf": 20
+        },
+        "test_roc_auc": 0.8659351205768852,
+        "test_accuracy": 0.7965554359526372,
+        "test_precision": 0.8048710601719198,
+        "test_recall": 0.8611281422440221,
+        "test_f1": 0.8320497630331753,
+        "fit_seconds": 13.5
+      },
+      "hist_gradient_boosting": {
+        "cv_roc_auc": 0.8738042095862003,
+        "best_params": {
+          "l2_regularization": 0.0,
+          "learning_rate": 0.1,
+          "max_leaf_nodes": 8
+        },
+        "test_roc_auc": 0.8690477958413864,
+        "test_accuracy": 0.796734840330104,
+        "test_precision": 0.8104403616214639,
+        "test_recall": 0.851931330472103,
+        "test_f1": 0.8306680615752503,
+        "fit_seconds": 18.0
+      }
+    },
+    "selected": "hist_gradient_boosting"
+  },
+  "saved_model": {
+    "feature_set": "full",
+    "model": "logreg (baseline)"
+  }
+}

@@ -1,0 +1,9 @@
+data/
+notebook.ipynb
+__pycache__/
+*.pyc
+.git
+.gitignore
+../README.md
+test_service.py
+requirements-notebook.txt

@@ -1,0 +1,12 @@
+{
+  "age": 55,
+  "academic_pressure": 4,
+  "cgpa": 7.5,
+  "study_satisfaction": 5,
+  "sleep_duration": "Less than 5 hours",
+  "dietary_habits": "Unhealthy",
+  "suicidal_thoughts": "Yes",
+  "work_study_hours": 12,
+  "financial_stress": 5,
+  "family_history": "Yes"
+}
